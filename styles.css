@@ -1,0 +1,96 @@
+/* Estilo festivo suave (pastel) */
+
+/* Colores pastel principales */
+:root {
+  --color1: #ffe8e8;  /* rojo pastel */
+  --color2: #fff7d1;  /* amarillo pastel */
+  --color3: #e8faff;  /* azul pastel */
+  --text-dark: #333;
+  --text-light: #555;
+  --accent: #ff8b8b;  /* acento suave */
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: var(--color3);
+  color: var(--text-dark);
+}
+
+header {
+  background: var(--color1);
+  padding: 25px;
+  text-align: center;
+  border-bottom: 3px solid var(--accent);
+}
+
+header h1 {
+  font-size: 2.4rem;
+  margin: 0;
+}
+
+nav {
+  background: var(--color2);
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  border-bottom: 2px solid var(--accent);
+}
+
+nav a {
+  color: var(--text-dark);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: var(--accent);
+}
+
+/* Contenedor general */
+section {
+  max-width: 900px;
+  margin: auto;
+  padding: 25px;
+}
+
+/* Galería */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+  border: 3px solid var(--accent);
+}
+
+/* Videos */
+video {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: 3px solid var(--accent);
+}
+
+/* Mapa */
+iframe {
+  width: 100%;
+  height: 350px;
+  border: 0;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: 3px solid var(--accent);
+}
+
+/* Tienda */
+.store-item {
+  background: var(--color1);
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 10px;
+  border-left: 5px solid var(--accent);
+}
