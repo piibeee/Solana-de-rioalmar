@@ -2,10 +2,78 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Fiestas de Solana de Rioalmar</title>
+    <title>Solana de Rioalmar – Galería del pueblo</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <h1>Bienvenidos a Solana de Rioalmar</h1>
-    <p>Prueba: la web funciona 🚀</p>
+
+<header>
+    <h1>Solana de Rioalmar – Galería del Pueblo</h1>
+</header>
+
+<nav>
+    <a href="#fotos">Fotos</a>
+    <a href="#videos">Vídeos</a>
+    <a href="#historia">Historia</a>
+    <a href="#mapa">Mapa</a>
+    <a href="#tienda">Tienda</a>
+</nav>
+
+<section id="fotos">
+    <h2>📸 Galería de fotos</h2>
+
+    <div class="gallery">
+        <img src="img/foto1.jpg" alt="Foto del pueblo">
+        <img src="img/foto2.jpg" alt="Foto del pueblo">
+        <img src="img/foto3.jpg" alt="Foto del pueblo">
+    </div>
+</section>
+
+<section id="videos">
+    <h2>🎥 Vídeos del pueblo</h2>
+
+    <video controls>
+        <source src="videos/video1.mp4" type="video/mp4">
+    </video>
+
+    <video controls>
+        <source src="videos/video2.mp4" type="video/mp4">
+    </video>
+</section>
+
+<section id="historia">
+    <h2>📝 Historia / Descripción del pueblo</h2>
+    <p>
+        Solana de Rioalmar es un pequeño pueblo lleno de encanto, tradiciones y paisajes únicos.
+        Aquí podrás ver fotos, vídeos y recuerdos de sus fiestas y rincones más bonitos.
+    </p>
+</section>
+
+<section id="mapa">
+    <h2>📍 Mapa del pueblo</h2>
+
+    <!-- Mapa de Google integrado (gratis) -->
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3032.39438!2d-5.0765!3d40.6575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd3f105f71f46d4d%3A0x3cf52d1a7e7e14c0!2sSolana%20de%20Rioalmar!5e0!3m2!1ses!2ses!4v000000000"
+        allowfullscreen="" loading="lazy">
+    </iframe>
+
+</section>
+
+<section id="tienda">
+    <h2>🛍️ Tienda</h2>
+
+    <div class="store-item">
+        <h3>Pegatina del pueblo</h3>
+        <p>Pegatina especial de la entrada del pueblo • 1€</p>
+    </div>
+
+    <div class="store-item">
+        <h3>Pegatina edición fiestas</h3>
+        <p>Pegatina especial de fiestas • 2€</p>
+    </div>
+</section>
+
 </body>
 </html>
